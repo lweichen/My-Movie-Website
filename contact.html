@@ -1,38 +1,39 @@
 <html>
-    <head>
-        <title>Movie World-Contact</title>
-        <link rel="stylesheet" href="class.css">
-        <link rel="stylesheet" href="https://db.onlinewebfonts.com/c/08aae9f020949051ff8331be100607cb?family=Archive">
-        <link rel="shortcut icon" href="webpage logo.jpg" type="image/x-icon" style="width: 100%; ">
-    </head>
 
-    <body>
-        <style>
-            body {
-                background-color: rgba(222, 222, 222, 0.456);
-                background-image: url(https://images6.fanpop.com/image/photos/44300000/Suzume-no-Tojimari-Wallpaper-suzume-no-tojimari-44383771-1920-1080.jpg);
-                background-repeat: no-repeat;
-                /*background-attachment:fixed;*/
-                background-size: cover;
-                background-blend-mode: overlay;
-            }
-        </style>
-         <div>
-            <header id="header" class="navbar mianheader">
-                <nav class="navbar">
-                    <div class="a">
-                        <ul>
-                            <li class="navitem barlow-condensed-regular">
-                                <a class="navlink" href="index.html">
-                                    <span class="navlist">Home</span>
-                                </a>
-                            </li>
+<head>
+    <title>Movie World-Contact</title>
+    <link rel="stylesheet" href="class.css">
+    <link rel="stylesheet" href="https://db.onlinewebfonts.com/c/08aae9f020949051ff8331be100607cb?family=Archive">
+    <link rel="shortcut icon" href="webpage logo.jpg" type="image/x-icon" style="width: 100%; ">
+</head>
 
-                            <li class="navitem barlow-condensed-regular">
-                                <a class="navlink" href="about.html">
-                                    <span class="navlist">About</span>
-                                </a>
-                            </li>
+<body>
+    <style>
+        body {
+            background-color: rgba(222, 222, 222, 0.456);
+            background-image: url(https://images6.fanpop.com/image/photos/44300000/Suzume-no-Tojimari-Wallpaper-suzume-no-tojimari-44383771-1920-1080.jpg);
+            background-repeat: no-repeat;
+            /*background-attachment:fixed;*/
+            background-size: cover;
+            background-blend-mode: overlay;
+        }
+    </style>
+    <div>
+        <header id="header" class="navbar mianheader">
+            <nav class="navbar">
+                <div class="a">
+                    <ul>
+                        <li class="navitem barlow-condensed-regular">
+                            <a class="navlink" href="index.html">
+                                <span class="navlist">Home</span>
+                            </a>
+                        </li>
+
+                        <li class="navitem barlow-condensed-regular">
+                            <a class="navlink" href="about.html">
+                                <span class="navlist">About</span>
+                            </a>
+                        </li>
 
                         <div class="dropdown navitem barlow-condensed-regular">
                             <button class="dropbtn">Movie</button>
@@ -40,22 +41,67 @@
                                 <a href="film.html">Film</a>
                                 <a href="anime.html">Anime</a>
                             </div>
-                        </div> 
+                        </div>
 
-                            <li class="navitem barlow-condensed-regular">
-                                <a class="navlink marginright" href="contact.html">
-                                    <span class="navlist">Contact</span>
-                                </a>
-                            </li>
-                        </ul>
-                    </div>
-                </nav>
-            </header>
+                        <li class="navitem barlow-condensed-regular">
+                            <a class="navlink marginright" href="contact.html">
+                                <span class="navlist">Contact</span>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+        </header>
+    </div>
+
+    <h1 class="contacttitle">CONTACT ME</h1>
+
+    <div>
+        <div class="ctn">
+            <a href="https://www.facebook.com/weichen.lai.397" target="_blank">
+                <img src="fb icon.png" style="margin-bottom: 50px; width: 50px; position: absolute; right: 8px;">
+            </a>
+
+            <a href="https://www.instagram.com/weichen0618/?hl=en" target="_blank">
+                <img src="ig icon.png" style="margin-top: 100px; width: 50px; position: absolute; right: 8px;">
+            </a>
+
+            <a href="https://twitter.com/weichen618" target="_blank">
+                <img src="x icon.png" style="margin-top: 200px; width: 50px; position: absolute; right: 8px;">
+            </a>
         </div>
 
-        <h1 class="contacttitle">CONTACT ME</h1>
         <div class="contactbox">
-            
+            <form>
+                <label for="fname">
+                    <img src="user icon.png" class="icon">
+                </label>
+                <input type="text" name="name" placeholder="NAME" class="inputclass height1 anonymous-pro-regular"
+                    style="margin-top: 30px;" required>
+
+                <br>
+
+                <label for="email">
+                    <img src="email icon.png" class="icon">
+                </label>
+                <input type="email" name="email" placeholder="EMAIL" class="inputclass height1 anonymous-pro-regular"
+                    required>
+
+                <br>
+
+                <label for="message">
+                    <img src="msg icon.png" class="icon">
+                </label>
+                <input type="message" name="massage" placeholder="MESSAGE"
+                    class="inputclass height2 anonymous-pro-regular" required>
+
+                <br>
+
+                <input type="submit" value="SUBMIT" class="inputclass2 anonymous-pro-regular">
+                <input type="reset" value="RESET" class="inputclass2 anonymous-pro-regular">
+            </form>
         </div>
-    </body>
+    </div>
+</body>
+
 </html>
